@@ -62,3 +62,7 @@ for(let i=0; i<teachers.length; i++){
 }
 console.log(isTeachersEmpty);
 
+// secondo metodo
+const isTeachersEmpty2 = teachers.length===0;
+console.log(isTeachersEmpty2);
+
