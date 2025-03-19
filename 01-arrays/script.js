@@ -66,3 +66,18 @@ console.log(isTeachersEmpty);
 const isTeachersEmpty2 = teachers.length===0;
 console.log(isTeachersEmpty2);
 
+// terzo metodo
+
+let flag = false;
+if(teachers.length==0){
+  flag = true;
+}
+for(let i=0; i<teachers.length; i++){
+  
+  if(teachers[i]==null){
+    flag = true;
+  }
+}
+
+const isTeachersEmpty3 = flag;
+console.log(isTeachersEmpty3);
